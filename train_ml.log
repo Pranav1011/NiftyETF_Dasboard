@@ -1,0 +1,44 @@
+2025-02-15 19:47:05,442 - INFO - ✅ Prophet Dataset Ready - Shape: (3035, 2)
+2025-02-15 19:48:39,264 - INFO - ✅ Prophet Dataset Ready - Shape: (3035, 2)
+2025-02-15 19:48:39,289 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-02-15 19:48:39,297 - DEBUG - input tempfile: /var/folders/f6/yyj7_1cd08n0g390jxdxjpfc0000gn/T/tmpf_be1v7f/tpq1k2jo.json
+2025-02-15 19:48:39,362 - DEBUG - input tempfile: /var/folders/f6/yyj7_1cd08n0g390jxdxjpfc0000gn/T/tmpf_be1v7f/6ybl9ala.json
+2025-02-15 19:48:39,363 - DEBUG - idx 0
+2025-02-15 19:48:39,363 - DEBUG - running CmdStan, num_threads: None
+2025-02-15 19:48:39,363 - DEBUG - CmdStan args: ['/Users/saipranavkrovvidi/Documents/Personal Projects/nifty_etf_price_prediction/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=45727', 'data', 'file=/var/folders/f6/yyj7_1cd08n0g390jxdxjpfc0000gn/T/tmpf_be1v7f/tpq1k2jo.json', 'init=/var/folders/f6/yyj7_1cd08n0g390jxdxjpfc0000gn/T/tmpf_be1v7f/6ybl9ala.json', 'output', 'file=/var/folders/f6/yyj7_1cd08n0g390jxdxjpfc0000gn/T/tmpf_be1v7f/prophet_modeliwujdc4v/prophet_model-20250215194839.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-02-15 19:48:39,363 - INFO - Chain [1] start processing
+2025-02-15 19:48:39,995 - INFO - Chain [1] done processing
+2025-02-15 19:48:40,314 - INFO - 
+📊 Prophet Model Evaluation:
+2025-02-15 19:48:40,315 - INFO -    - MAE: 1.1302
+2025-02-15 19:48:40,315 - INFO -    - RMSE: 2.7203
+2025-02-15 19:48:40,315 - INFO -    - R² Score: 0.2256
+2025-02-15 19:50:34,310 - INFO - ✅ Prophet Dataset Ready - Shape: (3035, 2)
+2025-02-15 19:50:34,336 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-02-15 19:50:34,344 - DEBUG - input tempfile: /var/folders/f6/yyj7_1cd08n0g390jxdxjpfc0000gn/T/tmpnha3fbug/tftritna.json
+2025-02-15 19:50:34,410 - DEBUG - input tempfile: /var/folders/f6/yyj7_1cd08n0g390jxdxjpfc0000gn/T/tmpnha3fbug/am_buf7f.json
+2025-02-15 19:50:34,411 - DEBUG - idx 0
+2025-02-15 19:50:34,411 - DEBUG - running CmdStan, num_threads: None
+2025-02-15 19:50:34,411 - DEBUG - CmdStan args: ['/Users/saipranavkrovvidi/Documents/Personal Projects/nifty_etf_price_prediction/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=97286', 'data', 'file=/var/folders/f6/yyj7_1cd08n0g390jxdxjpfc0000gn/T/tmpnha3fbug/tftritna.json', 'init=/var/folders/f6/yyj7_1cd08n0g390jxdxjpfc0000gn/T/tmpnha3fbug/am_buf7f.json', 'output', 'file=/var/folders/f6/yyj7_1cd08n0g390jxdxjpfc0000gn/T/tmpnha3fbug/prophet_modelvp0fkn68/prophet_model-20250215195034.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-02-15 19:50:34,411 - INFO - Chain [1] start processing
+2025-02-15 19:50:34,550 - INFO - Chain [1] done processing
+2025-02-15 19:50:34,842 - INFO - 
+📊 Prophet Model Evaluation:
+2025-02-15 19:50:34,842 - INFO -    - MAE: 1.1302
+2025-02-15 19:50:34,842 - INFO -    - RMSE: 2.7203
+2025-02-15 19:50:34,842 - INFO -    - R² Score: 0.2256
+2025-02-15 19:51:33,484 - INFO - ✅ Prophet Dataset Ready - Shape: (3035, 2)
+2025-02-15 19:51:33,509 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-02-15 19:51:33,515 - DEBUG - input tempfile: /var/folders/f6/yyj7_1cd08n0g390jxdxjpfc0000gn/T/tmpf9zol21y/0idb2irb.json
+2025-02-15 19:51:33,578 - DEBUG - input tempfile: /var/folders/f6/yyj7_1cd08n0g390jxdxjpfc0000gn/T/tmpf9zol21y/s0uoswyb.json
+2025-02-15 19:51:33,579 - DEBUG - idx 0
+2025-02-15 19:51:33,579 - DEBUG - running CmdStan, num_threads: None
+2025-02-15 19:51:33,579 - DEBUG - CmdStan args: ['/Users/saipranavkrovvidi/Documents/Personal Projects/nifty_etf_price_prediction/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=54968', 'data', 'file=/var/folders/f6/yyj7_1cd08n0g390jxdxjpfc0000gn/T/tmpf9zol21y/0idb2irb.json', 'init=/var/folders/f6/yyj7_1cd08n0g390jxdxjpfc0000gn/T/tmpf9zol21y/s0uoswyb.json', 'output', 'file=/var/folders/f6/yyj7_1cd08n0g390jxdxjpfc0000gn/T/tmpf9zol21y/prophet_modelu6i0x91u/prophet_model-20250215195133.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-02-15 19:51:33,579 - INFO - Chain [1] start processing
+2025-02-15 19:51:33,727 - INFO - Chain [1] done processing
+2025-02-15 19:51:34,056 - INFO - 
+📊 Prophet Model Evaluation:
+2025-02-15 19:51:34,056 - INFO -    - MAE: 1.1302
+2025-02-15 19:51:34,056 - INFO -    - RMSE: 2.7203
+2025-02-15 19:51:34,056 - INFO -    - R² Score: 0.2256
+2025-02-15 19:51:40,156 - INFO - ✅ Forecast Data Saved Successfully!
