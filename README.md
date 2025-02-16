@@ -1,6 +1,5 @@
 # 📊 Nifty ETF Price Prediction & Market Analysis
 
-![Dashboard Preview](./assets/dashboard_screenshot.png)  
 
 ## 🚀 Project Overview  
 This project provides an interactive **Streamlit dashboard** for analyzing **Nifty ETF market trends, price predictions, and volatility forecasts** using **Machine Learning & Time Series Forecasting**. It includes key financial indicators like **Moving Averages, Bollinger Bands, RSI, MACD, and Trading Volume**, with **Prophet-based Volatility Forecasting**.
@@ -22,26 +21,30 @@ This project provides an interactive **Streamlit dashboard** for analyzing **Nif
 ## ⚡ Installation  
 
 1️⃣ **Clone the Repository**  
-```bash
+
 git clone https://github.com/your-username/nifty-etf-dashboard.git
 cd nifty-etf-dashboard
 
-2️⃣ Create & Activate Virtual Environment
+2️⃣ **Create & Activate Virtual Environment**
+
 python -m venv venv
 source venv/bin/activate  # For Mac/Linux
 venv\Scripts\activate  # For Windows
 
-3️⃣ Install Dependencies
+3️⃣ **Install Dependencies**
+
 pip install -r requirements.txt
 
-4️⃣ Run the Feature Engineering & Model Training Scripts
+4️⃣ **Run the Feature Engineering & Model Training Scripts**
+
 python scripts/feature_engineering.py
 python scripts/train_ml.py
 
-5️⃣ Launch the Streamlit Dashboard
+5️⃣ **Launch the Streamlit Dashboard**
+
 streamlit run dashboards/dashboard.py
 
-📊 Dashboard Overview
+📊 **Dashboard Overview**
 
 1️⃣ Market Volatility Forecast
 
